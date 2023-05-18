@@ -6,6 +6,9 @@ const productschma = new mongoose.Schema({
  mrp:{
     type:Number
  },
+ img:{
+   type:String
+ },
  presp:{
     type:Boolean
  },
@@ -23,6 +26,12 @@ const productschma = new mongoose.Schema({
  },
  usesof:{
     type:String
+ },
+ benifitof:{
+   type:String
+ },
+ sideeffect:{
+   typeo:Object
  }
     
 })
