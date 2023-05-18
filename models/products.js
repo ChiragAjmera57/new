@@ -31,7 +31,7 @@ const productschma = new mongoose.Schema({
    type:String
  },
  sideeffect:{
-   typeo:Object
+   type:Object
  }
     
 })
